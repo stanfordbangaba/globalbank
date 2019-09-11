@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bookentry-api.iml" filepath="$PROJECT_DIR$/.idea/modules/bookentry-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bookentry-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/bookentry-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bookentry-stream-api.iml" filepath="$PROJECT_DIR$/.idea/modules/bookentry-stream-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bookentry-stream-impl.iml" filepath="$PROJECT_DIR$/.idea/modules/bookentry-stream-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/globalbank.iml" filepath="$PROJECT_DIR$/.idea/modules/globalbank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/globalbank-build.iml" filepath="$PROJECT_DIR$/.idea/modules/globalbank-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-cassandra.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-cassandra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-kafka.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-service-locator.iml" filepath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-service-locator.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17eb60a2-98c5-4129-9a98-4b33b0dde7af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-09-08T023804.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/bookentry-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/bookentry-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/bookentry-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/bookentry-impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/bookentry-stream-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/bookentry-stream-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/bookentry-stream-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/bookentry-stream-impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/globalbank-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/globalbank-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/globalbank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/globalbank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-cassandra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-cassandra.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-kafka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-service-locator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-service-locator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/play2_project_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/AddAccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/AddAccountDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/BookentryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/BookentryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/DepositDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/DepositDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/ReversalDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/ReversalDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/ServiceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/ServiceResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/TransferDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/TransferDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/UpdateAccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/UpdateAccountDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/impl/AccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/impl/AccountEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/impl/BookentryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/impl/BookentryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/init/AccountInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/init/AccountInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/util/ValidationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/util/ValidationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/test/java/com/globalbank/bookentry/test/BookentryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/test/java/com/globalbank/bookentry/test/BookentryServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/add_account_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/add_account_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/deposit.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/deposit.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/transfer.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/transfer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/test/scala/BookentryPerfomanceTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/test/scala/BookentryPerfomanceTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-stream-impl/src/main/java/com/globalbank/bookentry/stream/impl/BookentryStreamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-stream-impl/src/main/java/com/globalbank/bookentry/stream/impl/BookentryStreamRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookentry-stream-impl/src/main/java/com/globalbank/bookentry/stream/impl/BookentryStreamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-stream-impl/src/main/java/com/globalbank/bookentry/stream/impl/BookentryStreamServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="334" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="globalbank" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1QSAB8qWWF6ja5WBxtmH7KWCNj8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549719915540" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bookentry-impl/src/test/resources/files" />
+      <recent name="$PROJECT_DIR$/bookentry-impl/src/test/scala" />
+      <recent name="$PROJECT_DIR$/bookentry-impl/src/test/resources/samples" />
+      <recent name="$PROJECT_DIR$/bookentry-impl" />
+      <recent name="$PROJECT_DIR$/bookentry-api" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/add_account_1.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/add_account_2.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts/deposit" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/deposit.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts/transfer" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/transfer.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts/1" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts/2" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts/add" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/add_account_1.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts/add" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/add_account_2.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts/12346" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts/12345" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000" />
+          <option name="urlPath" value="/api/accounts/add" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/add_account.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000" />
+          <option name="urlPath" value="/api/accounts/transfer" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/transfer.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9000" />
+          <option name="urlPath" value="/api/accounts/12345" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/add_account.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9000" />
+          <option name="urlPath" value="/api/accounts/12346" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/add_account.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000" />
+          <option name="urlPath" value="/api/accounts/update" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/update_account.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9000" />
+          <option name="urlPath" value="/api/accounts" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveFileToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="$USER_HOME$/Documents/test/add_account.json" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts/123" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9000/api/accounts" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:9000" />
+          <option name="urlPath" value="/api/accounts" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.BookentryServiceTest.shouldReverse">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rest-api_2#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="AccountEntityTest.testAccountEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookentry-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.globalbank.bookentry.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.globalbank.bookentry.test" />
+      <option name="MAIN_CLASS_NAME" value="com.globalbank.bookentry.test.AccountEntityTest" />
+      <option name="METHOD_NAME" value="testAccountEntity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookentryServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookentry-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.globalbank.bookentry.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="com.globalbank.bookentry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.globalbank.bookentry.test" />
+      <option name="MAIN_CLASS_NAME" value="com.globalbank.bookentry.test.BookentryServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookentryServiceTest.shouldAddAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookentry-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.globalbank.bookentry.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.globalbank.bookentry.test" />
+      <option name="MAIN_CLASS_NAME" value="com.globalbank.bookentry.test.BookentryServiceTest" />
+      <option name="METHOD_NAME" value="shouldAddAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookentryServiceTest.shouldReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookentry-impl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.globalbank.bookentry.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.globalbank.bookentry.test" />
+      <option name="MAIN_CLASS_NAME" value="com.globalbank.bookentry.test.BookentryServiceTest" />
+      <option name="METHOD_NAME" value="shouldReverse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookentryServiceTest.shouldReverse" />
+        <item itemvalue="HTTP Request.rest-api_2#1" />
+        <item itemvalue="JUnit.BookentryServiceTest.shouldAddAccount" />
+        <item itemvalue="JUnit.AccountEntityTest.testAccountEntity" />
+        <item itemvalue="JUnit.BookentryServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="globalbank" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="lagom-internal-meta-project-service-locator [file:/home/stanford/Software/Projects/Lagom/globalbank/]" />
+                <option name="path" value="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-service-locator" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="lagom-internal-meta-project-cassandra [file:/home/stanford/Software/Projects/Lagom/globalbank/]" />
+                <option name="path" value="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-cassandra" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="bookentry-stream-api [file:/home/stanford/Software/Projects/Lagom/globalbank/]" />
+                <option name="path" value="$PROJECT_DIR$/bookentry-stream-api" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="bookentry-impl [file:/home/stanford/Software/Projects/Lagom/globalbank/]" />
+                <option name="path" value="$PROJECT_DIR$/bookentry-impl" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="bookentry-api [file:/home/stanford/Software/Projects/Lagom/globalbank/]" />
+                <option name="path" value="$PROJECT_DIR$/bookentry-api" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="lagom-internal-meta-project-kafka [file:/home/stanford/Software/Projects/Lagom/globalbank/]" />
+                <option name="path" value="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-kafka" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="bookentry-stream-impl [file:/home/stanford/Software/Projects/Lagom/globalbank/]" />
+                <option name="path" value="$PROJECT_DIR$/bookentry-stream-impl" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="globalbank [file:/home/stanford/Software/Projects/Lagom/globalbank/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="globalbank-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4704281447217" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2565270001" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="1947859207" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../bookstore" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../lagom-java-sbt" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../lagom-java-sbt-chirper-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../spring-data-in-lagom" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../ststoken" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../zeepayaqs" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../zeepayhub" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17eb60a2-98c5-4129-9a98-4b33b0dde7af" name="Default Changelist" comment="" />
+      <created>1549206470601</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549206470601</updated>
+      <workItem from="1549206472056" duration="383000" />
+      <workItem from="1549206883844" duration="5864000" />
+      <workItem from="1549262957794" duration="63000" />
+      <workItem from="1549691512096" duration="12875000" />
+      <workItem from="1567753487310" duration="29349000" />
+      <workItem from="1567843381246" duration="12377000" />
+      <workItem from="1567890137814" duration="17726000" />
+      <workItem from="1567951832178" duration="126000" />
+      <workItem from="1567952229235" duration="556000" />
+      <workItem from="1568016003309" duration="22343000" />
+      <workItem from="1568053729697" duration="7150000" />
+      <workItem from="1568109799863" duration="332000" />
+      <workItem from="1568110162943" duration="2159000" />
+      <workItem from="1568112511984" duration="1406000" />
+      <workItem from="1568118846954" duration="67000" />
+      <workItem from="1568118949171" duration="6919000" />
+      <workItem from="1568141089254" duration="3870000" />
+      <workItem from="1568145983939" duration="4646000" />
+      <workItem from="1568151640872" duration="5958000" />
+      <workItem from="1568189430701" duration="2183000" />
+      <workItem from="1568192803716" duration="345000" />
+    </task>
+    <task id="LOCAL-00001" summary="Change package name">
+      <created>1568099889919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568099889919</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change package name">
+      <created>1568110474228</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568110474228</updated>
+    </task>
+    <task id="LOCAL-00003" summary="BigDecimal amount set scaling and rounding mode">
+      <created>1568112693410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568112693410</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated readme">
+      <created>1568113485633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568113485633</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.name" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Change package name" />
+    <MESSAGE value="Added Test Configurations" />
+    <MESSAGE value="BigDecimal amount set scaling and rounding mode" />
+    <MESSAGE value="Updated readme" />
+    <MESSAGE value="Added Reversals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Reversals" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/globalbank$BookentryServiceTest.ic" NAME="BookentryServiceTest Coverage Results" MODIFIED="1568119796253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.globalbank.bookentry.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/globalbank$AccountEntityTest_testAccountEntity.ic" NAME="AccountEntityTest.testAccountEntity Coverage Results" MODIFIED="1568120981371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.globalbank.bookentry.test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

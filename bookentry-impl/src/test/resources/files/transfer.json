@@ -1,0 +1,8 @@
+{
+  "reference": "000",
+  "sourceAccount": "1",
+  "destinationAccount": "2",
+  "narrative": "Transfer",
+  "currencyCode": "GBP",
+  "amount": 10.00
+}

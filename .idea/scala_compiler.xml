@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="bookentry,bookentry-api,bookentry-impl,bookentry-stream-api,bookentry-stream-impl,bookentry_3162,bookstore,bookstore-api,bookstore-impl,bookstore-stream-api,bookstore-stream-impl,globalbank,lagom-internal-meta-project-cassandra,lagom-internal-meta-project-kafka,lagom-internal-meta-project-service-locator" />
+  </component>
+</project>
