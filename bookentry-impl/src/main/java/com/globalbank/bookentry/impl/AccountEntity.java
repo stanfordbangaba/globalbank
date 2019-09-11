@@ -15,7 +15,7 @@ import java.util.Optional;
 
 /**
  * This is an event sourced entity. It has a state, {@link AccountState}, which
- * stores what the book state should be.
+ * stores what the account state should be.
  * <p>
  * Event sourced entities are interacted with by sending them commands. This
  * entity supports some commands, like a {@link AccountCommand.AddAccount} command, which is

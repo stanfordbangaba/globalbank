@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17eb60a2-98c5-4129-9a98-4b33b0dde7af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2019-09-08T023804.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/bookentry-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/bookentry-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/bookentry-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/bookentry-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/bookentry-stream-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/bookentry-stream-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/bookentry-stream-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/bookentry-stream-impl.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/globalbank-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/globalbank-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/globalbank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/globalbank.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-cassandra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-cassandra.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-kafka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-service-locator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/lagom-internal-meta-project-service-locator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/play2_project_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/play2_project_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/AddAccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/AddAccountDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/BookentryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/BookentryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/DepositDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/DepositDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/ReversalDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/ReversalDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/ServiceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/ServiceResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/TransferDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/TransferDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/UpdateAccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-api/src/main/java/com/globalbank/bookentry/api/UpdateAccountDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/impl/AccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/impl/AccountEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/impl/BookentryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/impl/BookentryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/init/AccountInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/init/AccountInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/util/ValidationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/util/ValidationUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/test/java/com/globalbank/bookentry/test/BookentryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/test/java/com/globalbank/bookentry/test/BookentryServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/add_account_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/add_account_2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/deposit.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/deposit.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/transfer.json" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/test/resources/files/transfer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-impl/src/test/scala/BookentryPerfomanceTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/test/scala/BookentryPerfomanceTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-stream-impl/src/main/java/com/globalbank/bookentry/stream/impl/BookentryStreamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-stream-impl/src/main/java/com/globalbank/bookentry/stream/impl/BookentryStreamRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookentry-stream-impl/src/main/java/com/globalbank/bookentry/stream/impl/BookentryStreamServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-stream-impl/src/main/java/com/globalbank/bookentry/stream/impl/BookentryStreamServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -780,6 +747,8 @@
       <workItem from="1568151640872" duration="5958000" />
       <workItem from="1568189430701" duration="2183000" />
       <workItem from="1568192803716" duration="345000" />
+      <workItem from="1568197099217" duration="19000" />
+      <workItem from="1568200206534" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="Change package name">
       <created>1568099889919</created>
