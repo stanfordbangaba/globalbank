@@ -47,8 +47,6 @@ public class AccountEntity extends PersistentEntity<AccountCommand, AccountEvent
          * optimisation that allows the state itself to be persisted to combine many
          * events into one), then the passed in snapshotState may have a value that
          * can be used.
-         *
-         * Otherwise, the default state is to use the Hello greeting.
          */
         BehaviorBuilder b = newBehaviorBuilder(
                 snapshotState.orElse(

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17eb60a2-98c5-4129-9a98-4b33b0dde7af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/impl/AccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookentry-impl/src/main/java/com/globalbank/bookentry/impl/AccountEntity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -748,7 +747,7 @@
       <workItem from="1568189430701" duration="2183000" />
       <workItem from="1568192803716" duration="345000" />
       <workItem from="1568197099217" duration="19000" />
-      <workItem from="1568200206534" duration="32000" />
+      <workItem from="1568200206534" duration="149000" />
     </task>
     <task id="LOCAL-00001" summary="Change package name">
       <created>1568099889919</created>
@@ -778,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568113485633</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added Reversals">
+      <created>1568200251398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568200251398</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
